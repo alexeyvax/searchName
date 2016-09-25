@@ -1,0 +1,34 @@
+{
+	"list_person": [
+		{
+			"name": "Alexey",
+			"sur_name": "Kakegotam",
+			"age": 26,
+			"male": "man"
+		},
+		{
+			"name": "Andrey",
+			"sur_name": "Andreich",
+			"age": 27,
+			"male": "man"
+		},
+		{
+			"name": "Ololosh",
+			"sur_name": "Ololoshev",
+			"age": 23,
+			"male": "man"
+		},
+		{
+			"name": "Tomas",
+			"sur_name": "Tomason",
+			"age": 46,
+			"male": "man"
+		},
+		{
+			"name": "Zinadin",
+			"sur_name": "Zidan",
+			"age": 52,
+			"male": "man"
+		}
+	]
+}
