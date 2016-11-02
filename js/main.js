@@ -3,23 +3,27 @@
 
 (function()
 {
-	const field = document.querySelector( 'input' );
-	let outputText = document.querySelector( 'div.output' );
+	const form = document.querySelector( 'form' );
+	const field = form.querySelector( 'input' );
+	const outputText = form.querySelector( 'div.output' );
 	const storeCreatedElements = new Map();
 	
 	field.addEventListener( 'keyup', getList );
 	
 	function getList()
 	{
+		const method = form.method;
+		const action = form.action;
 		const request = new XMLHttpRequest();
 		const value = field.value;
 		
 		request.addEventListener( 'load', send );
-		request.open( 'POST', 'backend/text.json', true );
+		request.open( method, action, true );
 		request.send();
 
 		function send()
 		{
+			console.log( method, action );
 			if ( request.readyState === XMLHttpRequest.DONE
 				&& request.status === 200 )
 			{

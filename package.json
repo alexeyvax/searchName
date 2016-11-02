@@ -1,0 +1,22 @@
+{
+  "name": "search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexeyvax/searchName.git"
+  },
+  "author": "alexeyvax",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexeyvax/searchName/issues"
+  },
+  "homepage": "https://github.com/alexeyvax/searchName#readme",
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
+}

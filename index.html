@@ -7,10 +7,11 @@
 		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
 	</head>
 	<body>
-		<input type="text" id="text" />
-		<label for="text"></label>
+		<form name="search" method="GET"" action="./backend/text.json">
+			<input type="text" id="text" />
+		<label for="text">Entry your text</label>
 		<div class="output"></div>
-		
+		</form>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
